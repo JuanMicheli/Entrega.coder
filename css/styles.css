@@ -33,7 +33,15 @@ section h1 {
 
 .rto {
   display: grid;
-  grid-template-areas: "rto" "susp" "freno" "rueda" "agua" "nafta" "dir" "auto" "mang";
+  grid-template-areas: "rto" 
+                       "susp" 
+                       "freno" 
+                       "rueda" 
+                       "agua" 
+                       "nafta" 
+                       "dir" 
+                       "auto" 
+                       "mang";
   gap: 2px;
 }
 
@@ -102,7 +110,11 @@ section .mang {
 
 @media (min-width: 768px) {
   .rto {
-    grid-template-areas: "rto susp" "freno rueda" "agua nafta" "dir auto" "mang mang";
+    grid-template-areas: "rto susp" 
+                         "freno rueda" 
+                         "agua nafta" 
+                         "dir auto" 
+                         "mang mang";
     gap: 10px;
   }
   section .org {
@@ -135,7 +147,9 @@ section .mang {
 }
 @media (min-width: 1024px) {
   .rto {
-    grid-template-areas: "rto susp freno" "rueda agua nafta" "dir auto mang";
+    grid-template-areas: "rto susp freno" 
+                         "rueda agua nafta" 
+                         "dir auto mang";
     gap: 20px;
   }
   section .org {
