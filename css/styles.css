@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h0 {
+  font-size: 40px;
+  color: rgba(42, 42, 155, 0.932);
+}
+
+h1 {
+  color: rgba(42, 42, 155, 0.932);
+}
+
+article h2 {
+  color: red;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modelos {
+  font-weight: 700;
+}
+
+section h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.rto {
+  display: grid;
+  grid-template-areas: "rto" "susp" "freno" "rueda" "agua" "nafta" "dir" "auto" "mang";
+  gap: 2px;
+}
+
+section .org {
+  grid-area: rto;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .susp {
+  grid-area: susp;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .freno {
+  grid-area: freno;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .rueda {
+  grid-area: rueda;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .agua {
+  grid-area: agua;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .nafta {
+  grid-area: nafta;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .dir {
+  grid-area: dir;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .auto {
+  grid-area: auto;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+section .mang {
+  grid-area: mang;
+  border: 3px solid;
+  width: 70%;
+  justify-self: center;
+}
+
+@media (min-width: 768px) {
+  .rto {
+    grid-template-areas: "rto susp" "freno rueda" "agua nafta" "dir auto" "mang mang";
+    gap: 10px;
+  }
+  section .org {
+    width: 40vw;
+  }
+  section .susp {
+    width: 40vw;
+  }
+  section .freno {
+    width: 40vw;
+  }
+  section .rueda {
+    width: 40vw;
+  }
+  section .agua {
+    width: 40vw;
+  }
+  section .nafta {
+    width: 40vw;
+  }
+  section .dir {
+    width: 40vw;
+  }
+  section .auto {
+    width: 40vw;
+  }
+  section .mang {
+    width: 40vw;
+  }
+}
+@media (min-width: 1024px) {
+  .rto {
+    grid-template-areas: "rto susp freno" "rueda agua nafta" "dir auto mang";
+    gap: 20px;
+  }
+  section .org {
+    width: 30vw;
+  }
+  section .susp {
+    width: 30vw;
+  }
+  section .freno {
+    width: 30vw;
+  }
+  section .rueda {
+    width: 30vw;
+  }
+  section .agua {
+    width: 30vw;
+  }
+  section .nafta {
+    width: 30vw;
+  }
+  section .dir {
+    width: 30vw;
+  }
+  section .auto {
+    width: 30vw;
+  }
+  section .mang {
+    width: 30vw;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
